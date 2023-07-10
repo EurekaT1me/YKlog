@@ -1,0 +1,8 @@
+/home/zyk/Study/YKlog/build/CMakeFiles/rebuild_cache.dir
+/home/zyk/Study/YKlog/build/CMakeFiles/edit_cache.dir
+/home/zyk/Study/YKlog/build/test/CMakeFiles/rebuild_cache.dir
+/home/zyk/Study/YKlog/build/test/CMakeFiles/edit_cache.dir
+/home/zyk/Study/YKlog/build/test/CMakeFiles/functionalTest.dir
+/home/zyk/Study/YKlog/build/src/CMakeFiles/rebuild_cache.dir
+/home/zyk/Study/YKlog/build/src/CMakeFiles/edit_cache.dir
+/home/zyk/Study/YKlog/build/src/CMakeFiles/YKlog.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/functionalTest.dir/functionalTest.cpp.o  -o ../../test/bin/functionalTest   -L/home/zyk/Study/YKlog/depoly/lib  -Wl,-rpath,/home/zyk/Study/YKlog/depoly/lib ../../depoly/lib/libYKlog.a -lpthread 
