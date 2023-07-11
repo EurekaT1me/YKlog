@@ -104,7 +104,8 @@ string LogFile::getLogFileName(const string &basename, time_t *now) {
     char timeBuf[32] = {0};
     struct tm tm_time;
     *now = ts.SecondsSinceEpoch();
-    gmtime_r(now, &tm_time);
+    // gmtime_r(now, &tm_time);
+    localtime_r(now, &tm_time);                                      // 使用本地时间
     strftime(timeBuf, sizeof(timeBuf), ".%Y%m%d-%H%M%S.", &tm_time); // 格式化时间
     // snprintf(timeBuf, sizeof(timeBuf), ".%4d%02d%02d%-02d%02d%02d.", tm_time.tm_year + 1900, tm_time.tm_mon, tm_time.tm_mday, tm_time.tm_hour, tm_time.tm_min, tm_time.tm_sec);
     filename += timeBuf; // 加上时间戳（UTC）
